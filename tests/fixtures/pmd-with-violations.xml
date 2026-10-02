@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+     version="6.21.0" timestamp="2021-01-01T00:00:00.000">
+    <file name="/github/workspace/src/main/java/com/example/Foo.java">
+        <violation beginline="10" endline="10" begincolumn="1" endcolumn="20" rule="UnusedImports" ruleset="Best Practices" package="com.example" class="Foo" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+            Avoid unused imports such as 'java.util.List'
+        </violation>
+        <violation beginline="25" endline="25" begincolumn="5" endcolumn="30" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="com.example" class="Foo" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+            Unnecessary use of fully qualified name 'java.util.ArrayList'
+        </violation>
+    </file>
+    <file name="/github/workspace/src/main/java/com/example/Bar.java">
+        <violation beginline="5" endline="5" begincolumn="1" endcolumn="10" rule="EmptyCatchBlock" ruleset="Error Prone" package="com.example" class="Bar" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+            Avoid empty catch blocks
+        </violation>
+    </file>
+</pmd>
