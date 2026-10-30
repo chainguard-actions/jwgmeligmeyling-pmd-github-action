@@ -6,9 +6,9 @@ Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at
 
 ## Versions
 
-| Version | Tag | Upstream commit |
-|---------|-----|-----------------|
-| v1.2 | [`v1.2`](https://github.com/chainguard-actions/jwgmeligmeyling-pmd-github-action/tree/v1.2) | [`322e346`](https://github.com/jwgmeligmeyling/pmd-github-action/commit/322e346bd76a0757c4d54ff9209e245965aa066d) |
+| Version | Tag | Upstream commit | Hardening report |
+|---------|-----|-----------------|------------------|
+| v1.2 | [`v1.2`](https://github.com/chainguard-actions/jwgmeligmeyling-pmd-github-action/tree/v1.2) | [`322e346`](https://github.com/jwgmeligmeyling/pmd-github-action/commit/322e346bd76a0757c4d54ff9209e245965aa066d) | [`HARDENING.md`](https://github.com/chainguard-actions/jwgmeligmeyling-pmd-github-action/blob/v1.2/HARDENING.md) |
 
 ## Privacy
 
